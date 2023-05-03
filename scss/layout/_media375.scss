@@ -1,53 +1,64 @@
-@media (max-width:375px){
+@media (max-width:375px) {
+
     /**Index**/
-    .index-footer{
+    .index-footer {
         font-size: 0.6rem;
-        div h2{
+
+        div h2 {
             padding-top: 0.2rem;
         }
-        ul li img{
+
+        ul li img {
             height: 0.7rem;
         }
     }
-    .titulo-principal{
+
+    .titulo-principal {
         font-size: 1.5rem;
     }
 
     /**Sobre Mí**/
-    .seccion-sobremi{
-        .wrapper .sobremi-ppal p{
+    .seccion-sobremi {
+        .wrapper .sobremi-ppal p {
             font-size: 0.63rem;
         }
     }
-    .wrapper .certificaciones{
+
+    .wrapper .certificaciones {
         font-size: 0.7rem;
     }
-    .wrapper .list-certif{
-        li p{
+
+    .wrapper .list-certif {
+        li p {
             font-size: 0.63rem;
         }
     }
 
     /**Más Info**/
-    .mas-info{
+    .mas-info {
         height: 100vh;
     }
 
     /**Preparaciones**/
-    .seccion-prep{
+    .seccion-prep {
         padding-right: 0.2rem;
-        img{
+
+        img {
             display: none;
         }
-        p{
+
+        p {
             font-size: 0.8rem;
         }
-        ul, ol{
+
+        ul,
+        ol {
             font-size: 0.7rem;
         }
     }
-    .menu-secundario{
-        a{
+
+    .menu-secundario {
+        a {
             font-size: 0.7rem;
             margin-left: 0.2rem;
         }

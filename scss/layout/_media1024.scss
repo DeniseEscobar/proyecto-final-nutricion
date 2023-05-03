@@ -1,28 +1,33 @@
-@media(max-width:1024px){
+@media(max-width:1024px) {
+
     /** Index **/
-    .main-ppal{
+    .main-ppal {
         height: 75vh;
     }
-    .titulo-principal{
+
+    .titulo-principal {
         font-size: 3rem;
     }
-    .index-footer{
-        div h2{
+
+    .index-footer {
+        div h2 {
             font-size: 0.9rem;
             padding-bottom: 0;
         }
-        ul li{
+
+        ul li {
             font-size: 0.7rem;
             margin-bottom: 0.5rem;
         }
     }
 
     /**Sobre Mí**/
-    .seccion-sobremi{
-        .wrapper{
+    .seccion-sobremi {
+        .wrapper {
             margin: 0.5rem;
             width: 100%;
-            img{
+
+            img {
                 width: 12rem;
                 height: 18rem;
                 margin-top: 1.5rem;
@@ -30,69 +35,81 @@
             }
         }
     }
-    
-    .wrapper .sobremi-ppal h1{
+
+    .wrapper .sobremi-ppal h1 {
         font-size: 2rem;
         padding-top: 0.5rem;
     }
-    .wrapper .sobremi-ppal p{
+
+    .wrapper .sobremi-ppal p {
         font-size: 0.9rem;
     }
 
-    .certificaciones{
+    .certificaciones {
         font-size: 1.7rem;
         margin: 0.2rem auto;
     }
-    .list-certif{
+
+    .list-certif {
         margin-bottom: 0.5rem;
-        li p{
+
+        li p {
             font-size: 0.9rem;
         }
     }
-    .sobremi-footer .cont-sobremi{
+
+    .sobremi-footer .cont-sobremi {
         font-size: 0.9rem;
         padding: 0;
     }
-    .sobremi-footer div ul li{
+
+    .sobremi-footer div ul li {
         font-size: 0.9rem;
     }
 
     /**Servicios**/
-    .main-servicios h1{
+    .main-servicios h1 {
         font-size: 2.5rem;
     }
-    .section{
+
+    .section {
         padding: 1rem;
-        h2{
+
+        h2 {
             font-size: 2rem;
         }
-        p{
+
+        p {
             font-size: $font-size;
         }
     }
 
     //**Más Info*//
-    .mas-info{
+    .mas-info {
         height: 75vh;
-        h1{
+
+        h1 {
             margin-bottom: 0;
             padding-top: 0.5rem;
             font-size: 2.5rem;
         }
-        div .info-body{
+
+        div .info-body {
             font-size: 0.9rem;
             padding: 0.5rem 5rem;
             text-indent: 1rem;
             line-height: 1.2rem;
         }
     }
-    .masinfo-footer{
-        .contactos{
+
+    .masinfo-footer {
+        .contactos {
             padding-bottom: 0;
             padding-top: 0.5rem;
             font-size: 0.8rem;
         }
-        .contactos-masinfo{
+
+        .contactos-masinfo {
             font-size: 0.8rem;
             padding-bottom: 0;
         }

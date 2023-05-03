@@ -1,10 +1,11 @@
-.mas-info{
+.mas-info {
     background-image: url(../assets/img/mas-info/fondo-mas-info.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
     height: 100vh;
-    h1{
+
+    h1 {
         font-family: $font-principal;
         text-align: center;
         color: $color-principal;
@@ -13,7 +14,8 @@
         margin-bottom: 1rem;
         text-shadow: 1px 1px white;
     }
-    .info-body{
+
+    .info-body {
         font-family: $font-secundario;
         font-size: $font-size;
         padding: 0.5rem 5rem;

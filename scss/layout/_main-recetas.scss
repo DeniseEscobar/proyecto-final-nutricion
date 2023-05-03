@@ -1,4 +1,4 @@
-.main-recetas h1{
+.main-recetas h1 {
     text-align: center;
     color: $color-principal;
     font-family: $font-principal;
@@ -8,7 +8,7 @@
     background: #f3f1f5;
 }
 
-.container-card{
+.container-card {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -16,7 +16,7 @@
     background: #f3f1f5;
 }
 
-.card1{
+.card1 {
     margin: 0.5rem;
     width: 13rem;
     height: 18rem;
@@ -27,52 +27,52 @@
     overflow: hidden;
 }
 
-.card2{
+.card2 {
     background-image: url(/assets/img/recetas/rollitos-de-pollo.JPG);
     @extend .card1;
 }
 
-.card3{
+.card3 {
     background-image: url(../assets/img/recetas/pan-con-espinaca.JPG);
     @extend .card1;
 }
 
-.card4{
+.card4 {
     background-image: url(../assets/img/recetas/toston.JPG);
     @extend .card1;
 }
 
-.card5{
+.card5 {
     background-image: url(../assets/img/recetas/crackers.JPG);
     @extend .card1;
 }
 
-.card6{
+.card6 {
     background-image: url(../assets/img/recetas/tartas.JPG);
     @extend .card1;
 }
 
-.card7{
+.card7 {
     background-image: url(../assets/img/recetas/cheesecake.JPG);
     @extend .card1;
 }
 
-.card8{
+.card8 {
     background-image: url(../assets/img/recetas/brownie.JPG);
     @extend .card1;
 }
 
-.card9{
+.card9 {
     background-image: url(../assets/img/recetas/bombon.jpg);
     @extend .card1;
 }
 
-.card10{
+.card10 {
     background-image: url(../assets/img/recetas/muffin.jpg);
     @extend .card1;
 }
 
-.content{
+.content {
     width: 100%;
     height: 100%;
     display: flex;
@@ -82,7 +82,8 @@
     background: rgba(0, 0, 0, .4);
     opacity: 0;
     transition: 0.5s;
-    h2{
+
+    h2 {
         color: rgba(255, 255, 255, .8);
         margin: 10px 0;
         font-family: $font-principal;
@@ -90,11 +91,11 @@
     }
 }
 
-.card1:hover .content{
+.card1:hover .content {
     opacity: 1;
 }
 
-button{
+button {
     font-family: $font-secundario;
     width: 180px;
     color: #000;
@@ -106,6 +107,7 @@ button{
     outline: none;
     margin-top: 30px;
 }
-button a{
+
+button a {
     color: rgba(6, 131, 131, 0.795);
 }

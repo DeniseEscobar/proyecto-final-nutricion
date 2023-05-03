@@ -1,19 +1,22 @@
-footer{
+footer {
     background-color: $background-main;
     font-family: $font-secundario;
     font-size: $font-size;
     @include flex (row, wrap, space-evenly, none);
-    div h2{
+
+    div h2 {
         @include flex (row, wrap, center, none);
         padding-top: 0.5rem;
         text-decoration: underline;
         padding-bottom: 1rem;
         font-family: $font-secundario;
     }
-    ul li{
-        display:inline-block;
+
+    ul li {
+        display: inline-block;
         padding-bottom: 0.5rem;
-        a{
+
+        a {
             text-decoration: none;
             list-style: none;
             color: rgba(6, 131, 131, 0.795);

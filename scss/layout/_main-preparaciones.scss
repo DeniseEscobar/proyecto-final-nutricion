@@ -1,6 +1,7 @@
 .main-preparaciones {
     background-color: #f1f3f5cb;
-    h1{
+
+    h1 {
         font-family: $font-principal;
         text-align: center;
         color: $color-principal;
@@ -9,43 +10,51 @@
     }
 }
 
-.seccion-prep h2{
+.seccion-prep h2 {
     font-family: $font-principal;
     color: rgba(6, 131, 131, 0.795);
     font-size: 1.9rem;
 }
-.seccion-prep p{
+
+.seccion-prep p {
     font-family: $font-secundario;
     text-decoration: underline;
     margin-top: 1rem;
 }
-.seccion-prep ul, ol{
+
+.seccion-prep ul,
+ol {
     font-family: $font-secundario;
     font-size: 0.9rem;
 }
-.seccion-prep img{
+
+.seccion-prep img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.contenido-prep{
+.contenido-prep {
     display: flex;
 }
-.preparaciones{
+
+.preparaciones {
     width: 80%;
     border-right: 3px solid black;
 }
-.seccion-prep{
+
+.seccion-prep {
     display: flex;
     align-items: center;
     padding: 40px;
 }
-.menu-secundario{
+
+.menu-secundario {
     width: 20%;
     margin-top: 60px;
-    a{
+
+    a {
         display: block;
         text-align: center;
         color: rgba(6, 131, 131, 0.795);

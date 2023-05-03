@@ -1,4 +1,4 @@
-.main-servicios h1{
+.main-servicios h1 {
     font-family: $font-principal;
     color: $color-principal;
     text-align: center;
@@ -6,7 +6,8 @@
     padding-top: 1rem;
     font-size: 2.7rem;
 }
-.section{
+
+.section {
     display: flex;
     justify-content: space-between;
     padding: 1.2rem;
@@ -15,19 +16,22 @@
     border-radius: 20px;
     box-shadow: 10px 10px 10px grey;
 }
-.section img{
+
+.section img {
     width: 10rem;
     border-radius: 20px;
     border: solid 1px red;
 }
-.section h2{
+
+.section h2 {
     font-family: $font-principal;
     margin: 1rem;
     color: $color-principal;
     padding-top: 3rem;
     font-size: 2.2rem;
 }
-.section p{
+
+.section p {
     font-family: $font-secundario;
     color: black;
     text-align: center;

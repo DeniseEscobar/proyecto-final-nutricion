@@ -1,28 +1,32 @@
-@media(max-width:768px){
+@media(max-width:768px) {
+
     /**Index**/
-    nav .menu{
+    nav .menu {
         width: 100%;
         height: 0;
         overflow: hidden;
     }
-    .menu ul{
+
+    .menu ul {
         flex-direction: column;
         align-items: center;
         padding: 0.5rem 0;
     }
-    nav label{
+
+    nav label {
         display: inline-flex;
         color: white;
-        cursor:pointer;
+        cursor: pointer;
     }
-    nav #toggle:checked ~ .menu{
+
+    nav #toggle:checked~.menu {
         height: 100%;
     }
 
     /**Sobre Mí**/
-    .seccion-sobremi{
-        .wrapper{
-            img{
+    .seccion-sobremi {
+        .wrapper {
+            img {
                 width: 10rem;
                 height: 15rem;
                 margin-left: 1.5rem;
@@ -30,62 +34,76 @@
             }
         }
     }
-    .wrapper .sobremi-ppal h1{
+
+    .wrapper .sobremi-ppal h1 {
         font-size: 1.5rem;
         padding-right: 1rem;
     }
-    .wrapper .sobremi-ppal p{
+
+    .wrapper .sobremi-ppal p {
         font-size: 0.8rem;
         margin-bottom: 1.5rem;
     }
-    .certificaciones{
+
+    .certificaciones {
         font-size: 1.2rem;
     }
-    .list-certif{
-        li p{
+
+    .list-certif {
+        li p {
             font-size: 0.8rem;
         }
     }
-    .sobremi-footer div ul li{
+
+    .sobremi-footer div ul li {
         font-size: 0.8rem;
     }
 
     /**Más Info**/
-    .mas-info{
+    .mas-info {
         height: 68vh;
-        div .info-body{
+
+        div .info-body {
             padding: 0.5rem 2rem;
             font-size: 0.8rem;
         }
-        div .contactos-masinfo{
+
+        div .contactos-masinfo {
             font-size: 0.7rem;
         }
     }
 
     /**Preparaciones**/
-    .main-preparaciones{
-        h1{
+    .main-preparaciones {
+        h1 {
             font-size: 2rem;
         }
     }
-    .seccion-prep h2{
+
+    .seccion-prep h2 {
         font-size: 1.7rem;
     }
-    .seccion-prep p{
+
+    .seccion-prep p {
         font-size: 0.9rem;
     }
-    .seccion-prep ul, ol{
+
+    .seccion-prep ul,
+    ol {
         font-size: 0.8rem;
     }
-    .seccion-prep img{
+
+    .seccion-prep img {
         width: 10rem;
         height: 10rem;
     }
-    .preparaciones{
+
+    .preparaciones {
         width: 90%;
     }
-    .menu-secundario{
-        a{
+
+    .menu-secundario {
+        a {
             font-size: 0.8rem;
         }
     }

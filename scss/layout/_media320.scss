@@ -1,37 +1,42 @@
-@media(max-width:320px){
+@media(max-width:320px) {
+
     /**Index**/
-    header nav .logo{
+    header nav .logo {
         width: 12rem;
         height: 4rem;
     }
-    nav label img{
+
+    nav label img {
         height: 1.2rem;
     }
-    .main-ppal{
+
+    .main-ppal {
         font-size: 1.4rem;
         height: 70vh;
     }
 
     /**Sobre Mí**/
-    .seccion-sobremi{
-        .wrapper{
-            img{
+    .seccion-sobremi {
+        .wrapper {
+            img {
                 width: 5rem;
                 height: 6.5rem;
                 padding: 0;
             }
         }
-        .wrapper .sobremi-ppal h1{
+
+        .wrapper .sobremi-ppal h1 {
             font-size: 0.9rem;
         }
-        .wrapper .sobremi-ppal p{
+
+        .wrapper .sobremi-ppal p {
             font-size: 0.6rem;
         }
     }
 
     /**Servicios**/
-    .section{
-        img{
+    .section {
+        img {
             width: 6rem;
             height: 10rem;
             align-self: center;
@@ -39,45 +44,53 @@
     }
 
     /**Recetas**/
-    .card1{
+    .card1 {
         width: 8rem;
         height: 12rem;
     }
 
     /**Más Info**/
-    .mas-info{
+    .mas-info {
         height: 100vh;
-        div .info-body{
+
+        div .info-body {
             font-size: 0.65rem;
         }
     }
 
     /**Preparaciones**/
-    .main-preparaciones{
-        h1{
+    .main-preparaciones {
+        h1 {
             font-size: 1.5rem;
         }
     }
-    .seccion-prep{
-        h2{
+
+    .seccion-prep {
+        h2 {
             font-size: 1.2rem;
         }
-        p{
+
+        p {
             font-size: 0.7rem;
         }
-        ul, ol{
+
+        ul,
+        ol {
             font-size: 0.6rem;
         }
     }
-    .menu-secundario{
-        a{
+
+    .menu-secundario {
+        a {
             font-size: 0.6rem;
         }
     }
-    .contacts-prep{
+
+    .contacts-prep {
         font-size: 0.9rem;
     }
-    .contacts-preparaciones{
+
+    .contacts-preparaciones {
         font-size: 0.8rem;
     }
 }

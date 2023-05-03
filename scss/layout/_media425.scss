@@ -1,33 +1,38 @@
-@media (max-width:425px){
+@media (max-width:425px) {
+
     /** Index **/
-    .main-ppal{
+    .main-ppal {
         background-size: cover;
         height: 70vh;
-        .titulo-principal{
+
+        .titulo-principal {
             font-size: 2.5rem;
         }
     }
-    .index-footer{
-        div .index-cont{
-        padding-bottom: 0.2rem;
+
+    .index-footer {
+        div .index-cont {
+            padding-bottom: 0.2rem;
+        }
+
+        ul li {
+            font-size: 0.7rem;
+            display: inline-flex;
+            padding: 0;
+            padding-left: 0.5rem;
+            height: 0.7rem;
+        }
     }
-    ul li{
-        font-size: 0.7rem;
-        display: inline-flex;
-        padding: 0;
-        padding-left: 0.5rem;
-        height: 0.7rem;
-    }  
-    }
-    nav .logo{
+
+    nav .logo {
         width: 9rem;
         height: 3rem;
     }
 
     /**Sobre Mí**/
-    .seccion-sobremi{
-        .wrapper{
-            img{
+    .seccion-sobremi {
+        .wrapper {
+            img {
                 width: 6rem;
                 height: 8rem;
                 box-shadow: none;
@@ -37,100 +42,119 @@
                 margin-right: 0.2rem;
             }
         }
-        .wrapper .sobremi-ppal h1{
+
+        .wrapper .sobremi-ppal h1 {
             padding-top: 0.1rem;
             font-size: 1.2rem;
         }
-        .wrapper .sobremi-ppal p{
+
+        .wrapper .sobremi-ppal p {
             font-size: 0.7rem;
             margin-bottom: 1rem;
             padding-top: 0.5rem;
         }
-        .certificaciones{
+
+        .certificaciones {
             font-size: 1.1rem;
             margin: 0;
             padding: 0;
         }
-        .list-certif{
-            li{
+
+        .list-certif {
+            li {
                 padding: 0;
                 margin: 0;
             }
-            li p{
+
+            li p {
                 font-size: 0.7rem;
             }
         }
     }
-    .sobremi-footer .cont-sobremi{
+
+    .sobremi-footer .cont-sobremi {
         font-size: 0.7rem;
     }
-    .sobremi-footer div ul li{
+
+    .sobremi-footer div ul li {
         font-size: 0.6rem;
-        img{
+
+        img {
             height: 0.7rem;
         }
     }
 
     /**Servicios**/
-    .main-servicios h1{
+    .main-servicios h1 {
         font-size: 2rem;
     }
-    .section{
+
+    .section {
         padding: 0.5rem;
-        img{
+
+        img {
             width: 9rem;
         }
-        h2{
+
+        h2 {
             font-size: 1.5rem;
             text-align: center;
         }
-        p{
+
+        p {
             font-size: 0.9rem;
         }
     }
 
     /**Recetas**/
-    .card1{
+    .card1 {
         width: 10rem;
         height: 15rem;
     }
 
     /**Más Info**/
-    .mas-info{
+    .mas-info {
         height: 100vh;
-        h1{
+
+        h1 {
             font-size: 1.5rem;
         }
-        div .info-body{
+
+        div .info-body {
             font-size: 0.7rem;
             padding: 0.2rem 0.7rem;
         }
     }
-    .masinfo-footer{
-        div .contactos-masinfo{
+
+    .masinfo-footer {
+        div .contactos-masinfo {
             font-size: 0.7rem;
         }
     }
 
     /**Preparaciones**/
-    .main-preparaciones{
-        h1{
+    .main-preparaciones {
+        h1 {
             font-size: 1.8rem;
         }
     }
-    .seccion-prep{
+
+    .seccion-prep {
         padding-left: 1.5rem;
         padding-right: 0.5rem;
         align-items: flex-start;
-        h2{
+
+        h2 {
             font-size: 1.4rem;
         }
-        img{
+
+        img {
             width: 6rem;
             height: 6rem;
         }
     }
-    .preparaciones{
+
+    .preparaciones {
         border-right: 1px solid black;
     }
 }

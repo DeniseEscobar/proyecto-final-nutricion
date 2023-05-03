@@ -1,34 +1,42 @@
-header{
+header {
     font-size: $font-size;
     font-family: $font-secundario;
     background-color: $background-main;
-    .nav-wrapper{
+
+    .nav-wrapper {
         width: 100%;
         margin: 0 auto;
         padding: 1rem;
     }
+
     nav {
         @include flex (row, wrap, space-between, center);
-        .logo{
+
+        .logo {
             width: 13rem;
             height: 5rem;
         }
-        .menu ul{
+
+        .menu ul {
             list-style: none;
             @include flex (none, none, none, none);
             gap: 1rem;
             margin-right: 0.8rem;
-            li a{
+
+            li a {
                 text-decoration: none;
                 color: black;
-                text-shadow: 2px 2px 2px grey ;
+                text-shadow: 2px 2px 2px grey;
             }
         }
     }
 }
-nav #toggle, nav label{
+
+nav #toggle,
+nav label {
     display: none;
 }
-nav label img{
+
+nav label img {
     margin-right: 2rem;
 }
