@@ -36,7 +36,8 @@ header {
         color: black;
         text-shadow: 2px 2px 2px grey; }
 
-nav #toggle, nav label {
+nav #toggle,
+nav label {
   display: none; }
 
 nav label img {
@@ -168,7 +169,7 @@ nav label img {
   overflow: hidden; }
 
 .card2 {
-  background-image: url(/assets/img/recetas/rollitos-de-pollo.JPG); }
+  background-image: url(../assets/img/recetas/rollitos-de-pollo.JPG); }
 
 .card3 {
   background-image: url(../assets/img/recetas/pan-con-espinaca.JPG); }
@@ -269,7 +270,8 @@ button a {
   text-decoration: underline;
   margin-top: 1rem; }
 
-.seccion-prep ul, ol {
+.seccion-prep ul,
+ol {
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem; }
 
@@ -462,7 +464,8 @@ footer {
     font-size: 1.7rem; }
   .seccion-prep p {
     font-size: 0.9rem; }
-  .seccion-prep ul, ol {
+  .seccion-prep ul,
+  ol {
     font-size: 0.8rem; }
   .seccion-prep img {
     width: 10rem;
@@ -589,7 +592,8 @@ footer {
       display: none; }
     .seccion-prep p {
       font-size: 0.8rem; }
-    .seccion-prep ul, .seccion-prep ol {
+    .seccion-prep ul,
+    .seccion-prep ol {
       font-size: 0.7rem; }
   .menu-secundario a {
     font-size: 0.7rem;
@@ -635,7 +639,8 @@ footer {
     font-size: 1.2rem; }
   .seccion-prep p {
     font-size: 0.7rem; }
-  .seccion-prep ul, .seccion-prep ol {
+  .seccion-prep ul,
+  .seccion-prep ol {
     font-size: 0.6rem; }
   .menu-secundario a {
     font-size: 0.6rem; }
