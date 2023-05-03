@@ -209,7 +209,9 @@ nav label img {
     color: rgba(255, 255, 255, 0.8);
     margin: 10px 0;
     font-family: "Great Vibes";
-    text-align: center; }
+    text-align: center;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px black; }
 
 .card1:hover .content, .card2:hover .content, .card3:hover .content, .card4:hover .content, .card5:hover .content, .card6:hover .content, .card7:hover .content, .card8:hover .content, .card9:hover .content, .card10:hover .content {
   opacity: 1; }
