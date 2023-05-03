@@ -70,4 +70,31 @@
             font-size: $font-size;
         }
     }
+
+    //**Más Info*//
+    .mas-info{
+        height: 75vh;
+        h1{
+            margin-bottom: 0;
+            padding-top: 0.5rem;
+            font-size: 2.5rem;
+        }
+        div .info-body{
+            font-size: 0.9rem;
+            padding: 0.5rem 5rem;
+            text-indent: 1rem;
+            line-height: 1.2rem;
+        }
+    }
+    .masinfo-footer{
+        .contactos{
+            padding-bottom: 0;
+            padding-top: 0.5rem;
+            font-size: 0.8rem;
+        }
+        .contactos-masinfo{
+            font-size: 0.8rem;
+            padding-bottom: 0;
+        }
+    }
 }

@@ -27,4 +27,30 @@
             font-size: 0.63rem;
         }
     }
+
+    /**Más Info**/
+    .mas-info{
+        height: 100vh;
+    }
+
+    /**Preparaciones**/
+    .seccion-prep{
+        padding-right: 0.2rem;
+        img{
+            display: none;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+        ul, ol{
+            font-size: 0.7rem;
+        }
+    }
+    .menu-secundario{
+        a{
+            font-size: 0.7rem;
+            margin-left: 0.2rem;
+        }
+    }
+
 }

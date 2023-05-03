@@ -37,4 +37,47 @@
             align-self: center;
         }
     }
+
+    /**Recetas**/
+    .card1{
+        width: 8rem;
+        height: 12rem;
+    }
+
+    /**Más Info**/
+    .mas-info{
+        height: 100vh;
+        div .info-body{
+            font-size: 0.65rem;
+        }
+    }
+
+    /**Preparaciones**/
+    .main-preparaciones{
+        h1{
+            font-size: 1.5rem;
+        }
+    }
+    .seccion-prep{
+        h2{
+            font-size: 1.2rem;
+        }
+        p{
+            font-size: 0.7rem;
+        }
+        ul, ol{
+            font-size: 0.6rem;
+        }
+    }
+    .menu-secundario{
+        a{
+            font-size: 0.6rem;
+        }
+    }
+    .contacts-prep{
+        font-size: 0.9rem;
+    }
+    .contacts-preparaciones{
+        font-size: 0.8rem;
+    }
 }

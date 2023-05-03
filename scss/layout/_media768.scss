@@ -49,4 +49,44 @@
     .sobremi-footer div ul li{
         font-size: 0.8rem;
     }
+
+    /**Más Info**/
+    .mas-info{
+        height: 68vh;
+        div .info-body{
+            padding: 0.5rem 2rem;
+            font-size: 0.8rem;
+        }
+        div .contactos-masinfo{
+            font-size: 0.7rem;
+        }
+    }
+
+    /**Preparaciones**/
+    .main-preparaciones{
+        h1{
+            font-size: 2rem;
+        }
+    }
+    .seccion-prep h2{
+        font-size: 1.7rem;
+    }
+    .seccion-prep p{
+        font-size: 0.9rem;
+    }
+    .seccion-prep ul, ol{
+        font-size: 0.8rem;
+    }
+    .seccion-prep img{
+        width: 10rem;
+        height: 10rem;
+    }
+    .preparaciones{
+        width: 90%;
+    }
+    .menu-secundario{
+        a{
+            font-size: 0.8rem;
+        }
+    }
 }

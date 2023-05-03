@@ -88,4 +88,49 @@
             font-size: 0.9rem;
         }
     }
+
+    /**Recetas**/
+    .card1{
+        width: 10rem;
+        height: 15rem;
+    }
+
+    /**Más Info**/
+    .mas-info{
+        height: 100vh;
+        h1{
+            font-size: 1.5rem;
+        }
+        div .info-body{
+            font-size: 0.7rem;
+            padding: 0.2rem 0.7rem;
+        }
+    }
+    .masinfo-footer{
+        div .contactos-masinfo{
+            font-size: 0.7rem;
+        }
+    }
+
+    /**Preparaciones**/
+    .main-preparaciones{
+        h1{
+            font-size: 1.8rem;
+        }
+    }
+    .seccion-prep{
+        padding-left: 1.5rem;
+        padding-right: 0.5rem;
+        align-items: flex-start;
+        h2{
+            font-size: 1.4rem;
+        }
+        img{
+            width: 6rem;
+            height: 6rem;
+        }
+    }
+    .preparaciones{
+        border-right: 1px solid black;
+    }
 }
