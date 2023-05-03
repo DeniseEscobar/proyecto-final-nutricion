@@ -1,0 +1,40 @@
+@media(max-width:320px){
+    /**Index**/
+    header nav .logo{
+        width: 12rem;
+        height: 4rem;
+    }
+    nav label img{
+        height: 1.2rem;
+    }
+    .main-ppal{
+        font-size: 1.4rem;
+        height: 70vh;
+    }
+
+    /**Sobre Mí**/
+    .seccion-sobremi{
+        .wrapper{
+            img{
+                width: 5rem;
+                height: 6.5rem;
+                padding: 0;
+            }
+        }
+        .wrapper .sobremi-ppal h1{
+            font-size: 0.9rem;
+        }
+        .wrapper .sobremi-ppal p{
+            font-size: 0.6rem;
+        }
+    }
+
+    /**Servicios**/
+    .section{
+        img{
+            width: 6rem;
+            height: 10rem;
+            align-self: center;
+        }
+    }
+}

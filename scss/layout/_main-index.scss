@@ -1,0 +1,15 @@
+.main-ppal{
+    background-image: url(../assets/img/Home/background-main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo-principal{
+    font-family: $font-principal;
+    text-align: left;
+    color: white;
+    font-size: 5rem;
+    padding-top: 70px;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    text-shadow: 3px 1px rgba(105, 99, 99, 0.795);
+}

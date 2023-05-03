@@ -1,0 +1,30 @@
+@media (max-width:375px){
+    /**Index**/
+    .index-footer{
+        font-size: 0.6rem;
+        div h2{
+            padding-top: 0.2rem;
+        }
+        ul li img{
+            height: 0.7rem;
+        }
+    }
+    .titulo-principal{
+        font-size: 1.5rem;
+    }
+
+    /**Sobre Mí**/
+    .seccion-sobremi{
+        .wrapper .sobremi-ppal p{
+            font-size: 0.63rem;
+        }
+    }
+    .wrapper .certificaciones{
+        font-size: 0.7rem;
+    }
+    .wrapper .list-certif{
+        li p{
+            font-size: 0.63rem;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+@media(max-width:768px){
+    /**Index**/
+    nav .menu{
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    .menu ul{
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+    nav label{
+        display: inline-flex;
+        color: white;
+        cursor:pointer;
+    }
+    nav #toggle:checked ~ .menu{
+        height: 100%;
+    }
+
+    /**Sobre Mí**/
+    .seccion-sobremi{
+        .wrapper{
+            img{
+                width: 10rem;
+                height: 15rem;
+                margin-left: 1.5rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+    .wrapper .sobremi-ppal h1{
+        font-size: 1.5rem;
+        padding-right: 1rem;
+    }
+    .wrapper .sobremi-ppal p{
+        font-size: 0.8rem;
+        margin-bottom: 1.5rem;
+    }
+    .certificaciones{
+        font-size: 1.2rem;
+    }
+    .list-certif{
+        li p{
+            font-size: 0.8rem;
+        }
+    }
+    .sobremi-footer div ul li{
+        font-size: 0.8rem;
+    }
+}

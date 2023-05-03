@@ -1,0 +1,73 @@
+@media(max-width:1024px){
+    /** Index **/
+    .main-ppal{
+        height: 75vh;
+    }
+    .titulo-principal{
+        font-size: 3rem;
+    }
+    .index-footer{
+        div h2{
+            font-size: 0.9rem;
+            padding-bottom: 0;
+        }
+        ul li{
+            font-size: 0.7rem;
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    /**Sobre Mí**/
+    .seccion-sobremi{
+        .wrapper{
+            margin: 0.5rem;
+            width: 100%;
+            img{
+                width: 12rem;
+                height: 18rem;
+                margin-top: 1.5rem;
+                margin-left: 2rem;
+            }
+        }
+    }
+    
+    .wrapper .sobremi-ppal h1{
+        font-size: 2rem;
+        padding-top: 0.5rem;
+    }
+    .wrapper .sobremi-ppal p{
+        font-size: 0.9rem;
+    }
+
+    .certificaciones{
+        font-size: 1.7rem;
+        margin: 0.2rem auto;
+    }
+    .list-certif{
+        margin-bottom: 0.5rem;
+        li p{
+            font-size: 0.9rem;
+        }
+    }
+    .sobremi-footer .cont-sobremi{
+        font-size: 0.9rem;
+        padding: 0;
+    }
+    .sobremi-footer div ul li{
+        font-size: 0.9rem;
+    }
+
+    /**Servicios**/
+    .main-servicios h1{
+        font-size: 2.5rem;
+    }
+    .section{
+        padding: 1rem;
+        h2{
+            font-size: 2rem;
+        }
+        p{
+            font-size: $font-size;
+        }
+    }
+}
